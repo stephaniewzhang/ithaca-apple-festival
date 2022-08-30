@@ -1,0 +1,168 @@
+h1{
+  text-align:center;
+  color:#632f00;
+}
+h4{
+  text-align:center;
+  color:#632f00;
+}
+.map{
+  width:100%;
+  align-items: center;
+}
+body{
+  background-color:beige;
+}
+.food{
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+}
+.box {
+  margin: 10px;
+  width: 100%;
+}
+.list p{
+  text-align: center;
+  color:#632f00;
+}
+.nav {
+  display:flex;
+  flex-direction:column;
+}
+.pictureandcitation{
+  display:flex;
+  flex-direction:column;
+}
+h3{
+  text-align: center;
+  color:#632f00;
+}
+.nav a{
+  height: 5px;
+  margin: 5px;
+  padding: 5px;
+  width: auto;
+  justify-content: space-around;
+  align-items: center;
+  color:#632f00;
+}
+.header{
+  /* align-self: center; */
+  display:flex;
+  flex-direction:column;
+  text-align: center;
+}
+h2{
+  text-align:center;
+  color:#632f00;
+}
+aside{
+  text-align:center;
+}
+#logo{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+#logo img{
+  height: 200px;
+  width:200px;
+}
+p{
+  color:#632f00;
+}
+ul{
+  color:#632f00;
+}
+.buttonrow{
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+}
+
+.picsgroup {
+  width: 50%;
+  height: 100%;
+  margin: auto;
+}
+
+.hidden{
+  display:none;
+}
+
+button{
+  width: 10%;
+}
+
+.food{
+  width: 100%;
+  height: 337px;
+  object-fit: cover;
+  margin:auto;
+}
+.current{
+  background-color: blue;
+  color: white;
+}
+
+.hover{
+  background-color: #86C5FA;
+}
+
+.hoverarrow{
+  background-color: grey;
+}
+
+
+/* wider screens */
+@media (min-width: 600px) {
+  .food{
+    width: 100%;
+    height: 337px;
+    object-fit: cover;
+    margin:auto;
+  }
+  .logo{
+    height: 50px;
+    width: 50px;
+  }
+  .list p{
+    text-align: center;
+  }
+  .nav a{
+    height: 5px;
+    margin: 5px;
+    padding: 5px;
+    width: auto;
+    color: black;
+  }
+  .page-middle-index{
+    display:flex;
+    flex-direction:row;
+  }
+  .page-middle-index main{
+    width: 75%;
+  }
+  .nav {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+  }
+  .header{
+    text-align:center;
+  }
+  .hidden{
+    display:none;
+  }
+  .current{
+    background-color: blue;
+    color: white;
+  }
+  .hover{
+    background-color: #86C5FA;
+  }
+  .hoverarrow{
+    background-color: grey;
+  }
+}
